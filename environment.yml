@@ -1,0 +1,19 @@
+name: sinkhole-env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - azureml-core
+    - azureml-mlflow
+    - azureml-dataprep[pandas]
+    - azure-storage-blob
+    - catboost
+    - scikit-learn
+    - pandas
+    - numpy
+    - folium
+    - rasterio
+    - pyproj
+    - azureml-defaults
