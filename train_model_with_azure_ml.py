@@ -3,14 +3,14 @@ from azureml.core import Workspace, Experiment, ScriptRunConfig, Environment, Mo
 from azureml.core.compute import ComputeTarget, AmlCompute
 from azureml.exceptions import ComputeTargetException
 
-# Connect to your workspace
+
 ws = Workspace.from_config()
 
-# Create an experiment
+
 experiment = Experiment(workspace=ws, name='sinkhole-training')
 
-# Define the compute target
-compute_name = 'cpu-cluster'
+
+compute_name = ''
 try:
     compute_target = ComputeTarget(workspace=ws, name=compute_name)
     print("Found existing compute target.")
@@ -20,7 +20,7 @@ except ComputeTargetException:
     compute_target = ComputeTarget.create(ws, compute_name, compute_config)
     compute_target.wait_for_completion(show_output=True)
 
-# Define the environment
+
 env = Environment.from_conda_specification(name='sinkhole-env', file_path='conda_env.yml')
 
 # Prepare the script for training
@@ -52,8 +52,8 @@ print(f"Model downloaded to: {model_path}")
 # Register the model
 model = Model.register(
     workspace=ws,
-    model_path=model_path,  # Local path to the downloaded model
-    model_name="sinkhole-model",  # Name of the model in Azure ML
+    model_path=model_path,  
+    model_name="sinkhole-model", 
     tags={"area": "sinkhole detection", "type": "classification"},
     description="Sinkhole detection model"
 )
