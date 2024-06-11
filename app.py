@@ -100,7 +100,7 @@ def load_dataset():
         global csv_path
         csv_path = dataset_path
         sinkhole_data_df = pd.read_csv(csv_path)
-        transformer = Transformer.from_crs("epsg:26916", "epsg:4326", always_xy=True)
+        transformer = Transformer.from_crs("epsg:", "epsg:", always_xy=True)
         sinkhole_data_df[['lon', 'lat']] = sinkhole_data_df.apply(
             lambda row: pd.Series(transformer.transform(row['X'], row['Y'])), axis=1
         )
