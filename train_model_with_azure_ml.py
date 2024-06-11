@@ -27,12 +27,12 @@ env = Environment.from_conda_specification(name='sinkhole-env', file_path='conda
 src = ScriptRunConfig(source_directory='.',
                       script='train.py',
                       arguments=[
-                          '--csv_blob_name', 'sinkhole_data.csv',
-                          '--raster_blob_names', 'geology.tif,fault.tif,river.tif','caveDensity.tif','DEM.tif','depthToBedrock.tif','inventoryOfMinesOccu,tif','losingAndGainingStream,tif','naturalco.tif','quality.tif','satherm.tif',
+                          '--csv_blob_name', '',
+                          '--raster_blob_names', '',
                           '--iterations', 2000,
                           '--output_folder', 'output',
-                          '--container_name', 'sinkholedata',
-                          '--connection_string', 'DefaultEndpointsProtocol=https;AccountName=neuralrocksml1301062558;AccountKey=/0jJ6uHQJ1t/7RjOfcOtzHtiOltXn79tMBvENwAHZIQNfy6SXh54qSkWgSUH9HiC0SdFMCRDonRv+ASt53heNg==;EndpointSuffix=core.windows.net'
+                          '--container_name', '',
+                          '--connection_string', ''
                       ],
                       compute_target=compute_target,
                       environment=env)
