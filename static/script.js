@@ -1,13 +1,12 @@
-// Set the Cesium Ion access token
-Cesium.Ion.defaultAccessToken = 'your-cesium-ion-token';
+Cesium.Ion.defaultAccessToken = '';
 
-// Initialize CesiumJS viewer with imagery and geocoding
+
 const viewer = new Cesium.Viewer('cesiumContainer', {
-    imageryProvider: new Cesium.IonImageryProvider({ assetId: 2 }), // Bing Maps Aerial imagery
-    baseLayerPicker: true, // Allows users to switch base imagery layers
-    geocoder: true,        // Enables geocoding for location search
-    timeline: false,       // Disables the timeline
-    animation: false       // Disables animation controls
+    imageryProvider: new Cesium.IonImageryProvider({ assetId: 2 }), 
+    baseLayerPicker: true, 
+    geocoder: true,        
+    timeline: false,       
+    animation: false       
 });
 
 function showTab(tabName) {
