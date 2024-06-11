@@ -23,7 +23,7 @@ except ComputeTargetException:
 
 env = Environment.from_conda_specification(name='sinkhole-env', file_path='conda_env.yml')
 
-# Prepare the script for training
+
 src = ScriptRunConfig(source_directory='.',
                       script='train.py',
                       arguments=[
@@ -37,7 +37,7 @@ src = ScriptRunConfig(source_directory='.',
                       compute_target=compute_target,
                       environment=env)
 
-# Submit the experiment
+
 run = experiment.submit(src)
 run.wait_for_completion(show_output=True)
 
