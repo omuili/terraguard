@@ -1,3 +1,4 @@
+#deploy model
 from azureml.core import Workspace, Environment, Model
 from azureml.core.webservice import AciWebservice, Webservice
 from azureml.core.model import InferenceConfig
