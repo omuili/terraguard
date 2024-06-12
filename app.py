@@ -13,14 +13,15 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(STATIC_FOLDER, exist_ok=True)
 
 # Azure Blob Storage setup
-AZURE_CONNECTION_STRING = ''
+AZURE_CONNECTION_STRING = 'DefaultEndpointsProtocol=https;AccountName=neuralrocksml1301062558;AccountKey=/0jJ6uHQJ1t/7RjOfcOtzHtiOltXn79tMBvENwAHZIQNfy6SXh54qSkWgSUH9HiC0SdFMCRDonRv+ASt53heNg==;EndpointSuffix=core.windows.net'
+
 CONTAINER_NAME = 'sinkholedata'
 blob_service_client = BlobServiceClient.from_connection_string(AZURE_CONNECTION_STRING)
 container_client = blob_service_client.get_container_client(CONTAINER_NAME)
 
 # Azure ML endpoint information
-AZURE_ML_SCORING_URI = ''
-AZURE_ML_API_KEY = ''
+AZURE_ML_SCORING_URI = 'http://7a1a7f7f-6cd8-4c1a-9229-c94e4b290f02.eastus.azurecontainer.io/score'
+AZURE_ML_API_KEY = '72tZQFQ99VWkqbuCgWCaSjvNBlzsCQIl'
 
 csv_path = None
 raster_paths = []
@@ -100,7 +101,7 @@ def load_dataset():
         global csv_path
         csv_path = dataset_path
         sinkhole_data_df = pd.read_csv(csv_path)
-        transformer = Transformer.from_crs("epsg:", "epsg:", always_xy=True)
+        transformer = Transformer.from_crs("epsg:26916", "epsg:4326", always_xy=True)
         sinkhole_data_df[['lon', 'lat']] = sinkhole_data_df.apply(
             lambda row: pd.Series(transformer.transform(row['X'], row['Y'])), axis=1
         )
