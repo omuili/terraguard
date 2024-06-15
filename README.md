@@ -169,5 +169,3 @@ This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.tx
 - **Open Source Community**: For the tools and libraries that made this project possible.
 
 ---
-
-This README provides a comprehensive overview of the TerraGuard project, including installation instructions, usage details, and project structure. Make sure to customize any specific parts as needed to fit your project’s unique aspects. Additionally, replace the placeholder paths for the screenshots with the actual paths where the screenshots are stored.
