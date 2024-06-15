@@ -148,11 +148,11 @@ Access the interactive map by navigating to `http://localhost:5000` in your web 
 
 ### Application Interface
 
-![Application Interface](path/to/application_interface_screenshot.png)
+![Application Interface](images/image1.png)
 
 ### Data Processing Page
 
-![Data Processing Page](path/to/data_processing_page_screenshot.png)
+![Data Processing Page](images/image2.png)
 
 ## Contributing
 
