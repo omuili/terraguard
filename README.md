@@ -164,8 +164,8 @@ This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.tx
 
 ## Acknowledgments
 
-- **Hackbox Challenge**: For providing the platform and inspiration for this project.
-- **Azure**: For cloud services and support.
+- **Microsoft Innovation Challenge 2024**: For providing the platform and inspiration for this project.
+- **Microsoft Azure**: For cloud services and support.
 - **Open Source Community**: For the tools and libraries that made this project possible.
 
 ---
