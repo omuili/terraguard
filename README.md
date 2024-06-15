@@ -20,6 +20,8 @@ TerraGuard is an interactive web application designed to predict and prevent sin
 
 Sinkholes pose a significant risk to infrastructure and human safety. TerraGuard aims to address this issue by providing a robust and user-friendly platform for predicting and preventing sinkhole occurrences. By integrating geospatial data and machine learning models, TerraGuard offers accurate risk assessments and real-time monitoring capabilities.
 
+**Website:** [https://terraguard.azurewebsites.net/](https://terraguard.azurewebsites.net/)
+
 ## Features
 
 - **Real-Time Risk Assessment**: Provides real-time predictions of sinkhole risks based on current geospatial data.
@@ -46,24 +48,24 @@ Sinkholes pose a significant risk to infrastructure and human safety. TerraGuard
 
 ```plaintext
 .
-├── .github/workflows         # GitHub Actions for CI/CD
-├── static                    # Static files (JavaScript, CSS, images)
-│   └── script.js             # JavaScript for frontend interactivity
-├── templates                 # HTML templates for the web application
-│   └── index.html            # Main HTML template
-├── LICENSE.txt               # License information
-├── TerraGuard_Hackbox_Presentation.pdf # Presentation file for the project
-├── app.py                    # Main application file
-├── conda_env.yml             # Conda environment configuration
-├── del_service.py            # Script for deleting services
-├── deploy_model.py           # Script for deploying machine learning models
-├── environment.yml           # Environment configuration file
-├── inference.py              # Script for model inference
-├── register_model.py         # Script for registering models
-├── requirements.txt          # Python dependencies
-├── train.py                  # Script for training machine learning models
-├── train_model_with_azure_ml.py # Script for training models with Azure ML
-└── utils.py                  # Utility functions
+├── .github/workflows         
+├── static                    
+│   └── script.js            
+├── templates                 
+│   └── index.html           
+├── LICENSE.txt              
+├── TerraGuard_Hackbox_Presentation.pdf 
+├── app.py                    
+├── conda_env.yml            
+├── del_service.py            
+├── deploy_model.py          
+├── environment.yml           
+├── inference.py              
+├── register_model.py        
+├── requirements.txt          
+├── train.py                 
+├── train_model_with_azure_ml.py 
+└── utils.py             
 ```
 
 ## Installation
@@ -142,7 +144,15 @@ python inference.py
 
 ### Interactive Map
 
-Access the interactive map by navigating to `http://localhost:5000` in your web browser. Use the map to view real-time risk assessments and receive alerts for potential sinkhole hazards.
+Access the interactive map by navigating to `http://localhost:5000` in your web browser or visit the deployed application at [https://terraguard.azurewebsites.net/](https://terraguard.azurewebsites.net/). Use the map to view real-time risk assessments and receive alerts for potential sinkhole hazards.
+
+### Application Interface
+
+![Application Interface](path/to/application_interface_screenshot.png)
+
+### Data Processing Page
+
+![Data Processing Page](path/to/data_processing_page_screenshot.png)
 
 ## Contributing
 
@@ -159,3 +169,5 @@ This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.tx
 - **Open Source Community**: For the tools and libraries that made this project possible.
 
 ---
+
+This README provides a comprehensive overview of the TerraGuard project, including installation instructions, usage details, and project structure. Make sure to customize any specific parts as needed to fit your project’s unique aspects. Additionally, replace the placeholder paths for the screenshots with the actual paths where the screenshots are stored.
