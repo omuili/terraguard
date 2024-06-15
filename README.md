@@ -2,7 +2,7 @@
 
 # TerraGuard
 
-TerraGuard is an interactive web application designed to predict and prevent sinkhole hazards using advanced machine learning and geospatial data analysis. Developed as part of the Hackbox Challenge, TerraGuard leverages the power of AI to provide real-time risk assessments and early warnings, enhancing community safety and proactive risk management.
+TerraGuard is an interactive web application designed to predict and prevent sinkhole hazards using advanced machine learning and geospatial data analysis. Developed as part of the Microsoft Innovation Challenge, TerraGuard leverages the power of AI to provide real-time risk assessments and early warnings, enhancing community safety and proactive risk management.
 
 ## Table of Contents
 
