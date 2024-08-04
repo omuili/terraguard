@@ -20,7 +20,7 @@ TerraGuard is an interactive web application designed to predict and prevent sin
 
 Sinkholes pose a significant risk to infrastructure and human safety. TerraGuard aims to address this issue by providing a robust and user-friendly platform for predicting and preventing sinkhole occurrences. By integrating geospatial data and machine learning models, TerraGuard offers accurate risk assessments and real-time monitoring capabilities.
 
-**Website:** [https://terraguardv1.azurewebsites.net/](https://terraguard.azurewebsites.net/)
+**Website:** https://terraguardv1.azurewebsites.net/
 
 ## Features
 
