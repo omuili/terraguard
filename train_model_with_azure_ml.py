@@ -4,7 +4,7 @@ from azureml.core.compute import ComputeTarget, AmlCompute
 from azureml.exceptions import ComputeTargetException
 
 # Connect to your workspace
-ws = Workspace.from_config()
+ws = Workspace.from_config() 
 
 # Create an experiment
 experiment = Experiment(workspace=ws, name='sinkhole-training')
