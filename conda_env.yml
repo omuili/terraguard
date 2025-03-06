@@ -2,7 +2,7 @@ name: sinkhole-env
 channels:
   - defaults
 dependencies:
-  - python=3.9
+  - python=3.9 
   - pip
   - pip:
     - azureml-core
