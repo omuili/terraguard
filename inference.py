@@ -4,7 +4,7 @@ from catboost import CatBoostClassifier
 from azureml.core.model import Model
 
 def init():
-    global model
+    global model 
     model_path = Model.get_model_path('sinkhole-model')
     model = CatBoostClassifier()
     model.load_model(model_path)
