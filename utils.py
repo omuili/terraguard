@@ -4,7 +4,7 @@ from rasterio.warp import reproject, Resampling
 import requests
 import json
 
-def process_raster(data, nodata):
+def process_raster(data, nodata): 
     data = data.astype('float32')
     data[data == nodata] = np.nan
     return data
