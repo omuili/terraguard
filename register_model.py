@@ -2,7 +2,7 @@ import os
 
 # Download the model file from the run's outputs
 output_dir = 'output'
-os.makedirs(output_dir, exist_ok=True)
+os.makedirs(output_dir, exist_ok=True) 
 model_path = os.path.join(output_dir, 'model.pkl')
 run.download_file(name='outputs/model.pkl', output_file_path=model_path)
 
