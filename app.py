@@ -15,7 +15,7 @@ os.makedirs(STATIC_FOLDER, exist_ok=True)
 # Azure Blob Storage setup
 AZURE_CONNECTION_STRING = 'DefaultEndpointsProtocol=https;AccountName=neuralrocksml1301062558;AccountKey=/0jJ6uHQJ1t/7RjOfcOtzHtiOltXn79tMBvENwAHZIQNfy6SXh54qSkWgSUH9HiC0SdFMCRDonRv+ASt53heNg==;EndpointSuffix=core.windows.net'
 
-CONTAINER_NAME = 'sinkholedata'
+CONTAINER_NAME = 'sinkholedata' 
 blob_service_client = BlobServiceClient.from_connection_string(AZURE_CONNECTION_STRING)
 container_client = blob_service_client.get_container_client(CONTAINER_NAME)
 
