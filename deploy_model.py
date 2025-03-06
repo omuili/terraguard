@@ -4,7 +4,7 @@ from azureml.core.webservice import AciWebservice, Webservice
 from azureml.core.model import InferenceConfig
 
 # Connect to your workspace
-ws = Workspace.from_config()
+ws = Workspace.from_config() 
 
 # Define the environment
 env = Environment.from_conda_specification(name='sinkhole-env', file_path='environment.yml')
