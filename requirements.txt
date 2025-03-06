@@ -1,4 +1,4 @@
-adal==1.2.7
+adal==1.2.7 
 affine==2.4.0
 applicationinsights==0.11.10
 argcomplete==3.3.0
