@@ -163,11 +163,3 @@ Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTIN
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt) file for details.
-
-## Acknowledgments
-
-- **Microsoft Innovation Challenge 2024**: For providing the platform and inspiration for this project.
-- **Microsoft Azure**: For cloud services and support.
-- **Open Source Community**: For the tools and libraries that made this project possible.
-
----
