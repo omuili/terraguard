@@ -8,7 +8,7 @@ from catboost import CatBoostClassifier, Pool
 from sklearn.model_selection import train_test_split
 from utils import process_raster, read_raster_files, resample_raster
 
-def download_blob(blob_client, download_path):
+def download_blob(blob_client, download_path): 
     with open(download_path, 'wb') as f:
         f.write(blob_client.download_blob().readall())
 
