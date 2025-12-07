@@ -24,11 +24,10 @@ Sinkholes pose a significant risk to infrastructure and human safety. TerraGuard
 
 ## Recognition
 
-- 🥈 **2nd place – Microsoft Azure Innovation Challenge Hackathon**  
+🥈 **2nd place – Microsoft America Innovation Challenge Hackathon 2024**  
   Official announcement: [Congratulations and felicitaciones to the first Innovation Challenge winners!](https://techcommunity.microsoft.com/discussions/azure/congratulations-and-felicitaciones-to-the-first-innovation-challenge-winners/4171925)
 
 
-**Website:** https://terraguardv1.azurewebsites.net/
 
 ## Features
 
