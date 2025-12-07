@@ -2,7 +2,7 @@
 
 # TerraGuard
 
-TerraGuard is an interactive web application designed to predict and prevent sinkhole hazards using advanced machine learning and geospatial data analysis. TerraGuard leverages the power of AI to provide real-time risk assessments and early warnings, enhancing community safety and proactive risk management.
+TerraGuard is an interactive web application designed to predict and prevent sinkhole hazards using advanced machine learning and geospatial data analysis. TerraGuard leverages the power of AI to provide real-time risk assessments and early warnings, enhancing community safety and proactive risk management. It was developed for the **Microsoft Azure Innovation Challenge Hackathon**, where it placed **2nd among 113 developers across the Americas and Canada**.
 
 ![Anchor Testing Model - Overview Image Placeholder](./images/cover_image.jpeg)
 
@@ -21,6 +21,12 @@ TerraGuard is an interactive web application designed to predict and prevent sin
 ## Introduction
 
 Sinkholes pose a significant risk to infrastructure and human safety. TerraGuard aims to address this issue by providing a robust and user-friendly platform for predicting and preventing sinkhole occurrences. By integrating geospatial data and machine learning models, TerraGuard offers accurate risk assessments and real-time monitoring capabilities.
+
+## Recognition
+
+- 🥈 **2nd place – Microsoft Azure Innovation Challenge Hackathon**  
+  Official announcement: [Congratulations and felicitaciones to the first Innovation Challenge winners!](https://techcommunity.microsoft.com/discussions/azure/congratulations-and-felicitaciones-to-the-first-innovation-challenge-winners/4171925)
+
 
 **Website:** https://terraguardv1.azurewebsites.net/
 
