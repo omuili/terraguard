@@ -2,7 +2,7 @@
 
 # TerraGuard
 
-TerraGuard is an interactive web application designed to predict and prevent sinkhole hazards using advanced machine learning and geospatial data analysis. It's a final project as part of the CSCA 5642 Introduction to Deep Learning course, TerraGuard leverages the power of AI to provide real-time risk assessments and early warnings, enhancing community safety and proactive risk management.
+TerraGuard is an interactive web application designed to predict and prevent sinkhole hazards using advanced machine learning and geospatial data analysis. TerraGuard leverages the power of AI to provide real-time risk assessments and early warnings, enhancing community safety and proactive risk management.
 
 ![Anchor Testing Model - Overview Image Placeholder](./images/cover_image.jpeg)
 
