@@ -96,19 +96,19 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    # Create the output folder if it doesn't exist
+    
     output_folder = 'outputs'
     os.makedirs(output_folder, exist_ok=True)
     
     blob_service_client = BlobServiceClient.from_connection_string(args.connection_string)
     container_client = blob_service_client.get_container_client(args.container_name)
 
-    # Download the CSV file
+    
     csv_blob_client = container_client.get_blob_client(args.csv_blob_name)
     csv_path = os.path.join(output_folder, args.csv_blob_name)
     download_blob(csv_blob_client, csv_path)
 
-    # Download raster files
+    
     raster_blob_names = args.raster_blob_names.split(',')
     raster_paths = []
     for raster_blob_name in raster_blob_names:
